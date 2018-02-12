@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView mLifecycleDisplay;
 
     // TODO (1) Declare and instantiate a static ArrayList of Strings called mLifecycleCallbacks
+    private static String[] mLifecycleCallbacks;
 
     /**
      * Called when the activity is first created. This is where you should do all of your normal
